@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atm.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1.ATM Application</h1>
+    <div class="AtmApplication">
+        <div>
+            <label for="" class="ip">Balance : </label>
+            <input type="text" id="bAmt">
+        </div>
+        
+        <div>
+            <label for="" class="ip">Amount : </label>
+            <input type="text" id="amt">
+        </div>
+
+        <div>
+            <label for="" class="ip">Pin : </label>
+            <input type="text" id="pin">
+        </div>
+       
+        <div>        
+            <label for="" class="ip">Enter Pin : </label>
+            <input type="text" id="enPin">
+        </div>
+        <button id = btn>Withdraw</button>
+
+        <h3 id="res"></h3>
+    </div>
+    <!-- Online shopping -->
+    <h1>2. Online Shopping Discount & Free Shipping
+    </h1>
+    <div class="onlineshop">
+        <div>
+            <label class="ip" for="onamt">Amount : </label>
+            <input type="text" id="onamt"></div>
+        <button id="onbtn">Pay</button>
+        <h3 id="onres"></h3>
+    </div>
+    <div>
+        <!-- Grading System -->
+         <h1>3.Student Grading System with Extra Credit
+        </h1>
+        <div class="grading">
+            <div><label for="mark" class="ip">Marks :</label>
+                <input type="text" id="mark">
+                <label for="attendance" class="ip">Attendance</label>
+                <input type="text" id="attendance"></div>
+                <button id="gbtn">Grade</button>
+                <h3 id="gres"></h3>
+        </div>
+    </div>
+    <div>
+        <!-- Smart Traffic Light System  -->
+         <h1>4.Smart Traffic Light System
+        </h1>
+        <div class="traffic">
+            <div>
+                <label for="density" class="ip">Traffic density :</label>
+                <input type="text" id="density">
+            </div>
+            <button id="tbtn">Green signal</button>
+            <h3 id="tres"></h3>
+        </div>
+    </div>
+    <div>
+        <!-- Movie Ticket Pricing with Time and Age Discount -->
+         <h1>5.Movie Ticket Pricing with Time and Age Discount</h1>
+         <div class="movieticket">
+            <div>
+                <label for="age" class="ip">Age :</label>
+                <input type="text" id="age">
+                <label for="stime" class="ip">Show Time :</label>
+                <input type="text" id="stime">
+             </div>
+        
+         <button id="mbtn">ticket price</button>
+         <h3 id="mres"></h3> </div>
+    </div>
+    <div>
+        <!--6. Job Application Filter  -->
+        <h1>6. Job Application Filter</h1>
+        <div class="job">
+            <div>
+                <label for="jage" class="ip">Age :</label>
+                <input type="text" id="jage">
+                <label for="exp" class="ip">Experience in years:</label>
+                <input type="text" id="exp">
+                <label for="qual" class="ip">Qualification :</label>
+                <select name="qual" id="qual">
+                    <option value="be" id="be">B.E</option>
+                    <option value="bsc" id="bsc">B.sc</option>
+                    <option value="bcom" id="bcom">B.com</option>
+                </select>
+                <!-- <input type="text" id="qual"> -->
+            </div>
+            <button id="jbtn">Eligiblity</button>
+            <h3 id="jres"></h3>
+        </div>
+    </div>
+    <div>
+        <!--7. E-commerce Coupon Redemption  -->
+        <h1>7.E-commerce Coupon Redemption</h1>
+        <div class="ecom">
+            <div>
+                <label for="oamt" class="ip">Order Amount :</label>
+                <input type="text" id="oamt">
+                <label for="ccode" class="ip">Coupon Code :</label>
+                <input type="text" id="ccode">
+            </div>
+            <button id="ebtn">final price</button>
+            <h3 id="eres"></h3>
+        </div>
+    </div>
+    <div>
+        <!--Fitness Membership Plan -->
+        <div class="fmem">
+            <h1>8. Fitness Membership Plan</h1>
+            <div>
+                <label for="pt">Plan Type</label>
+                <select name="pt" id="pt">
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip">VIP</option>
+                </select>
+
+                <div>
+                    <label for="Trainer">Wants Trainer :</label>
+                
+                    <label for="Yes">Yes</label>
+                    <input type="radio" value="Yes" id="Yes" name="Trainer">
+
+                    <label for="No">No</label>
+                    <input type="radio" name="Trainer" id="No" value="No">
+            </div>
+
+            <div>
+                <label for="DietPlan">Wants Diet Plan :</label>
+                
+                <label for="Yes">Yes</label>
+                <input type="radio" name="DietPlan" id="Yes" value="Yes">
+                
+                <label for="No">No</label>
+                <input type="radio" name="DietPlan" id="No" value="No">
+            </div>
+
+            <button id="fbtn">ViewSuggestions</button>
+            <h3 id="fres"></h3>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <!-- Electricity Bill Calculation with Peak Hours
+ -->
+        <h1>9.Electricity Bill Calculation with Peak Hours
+        </h1>
+        <div class="Electricity">
+            <div>
+                <label for="unit" class="ip">Unit :</label>
+                <input type="text" id="unit">
+                <label for="tod" class="ip">TimeOfDay :</label>
+                <input type="text" id="tod">
+            </div>
+            <button id="elbtn">Bill</button>
+            <h3 id="elres"></h3>
+        </div>
+    </div>
+
+    <!--10. Flight Ticket Booking System  -->
+    <div>
+        <h1>10. Flight Ticket Booking System</h1>
+        <div class="flightticket">
+            <div>
+
+                <div>
+                    <label for="">Business Class - </label>
+                
+                    <label for="">Yes : </label>
+                    <input type="radio" name="BuisnessClass" id="Yes" value="Yes">
+
+                    <label for="">No : </label>
+                    <input type="radio" name="BuisnessClass" id="No" value="No">
+                </div>
+
+                <div>
+                    <label for="">First class - </label>
+                    
+                    <label for="">Yes : </label>
+                    <input type="radio" name="FirstClass" id="Yes" value="Yes">
+    
+                    <label for="">No : </label>
+                    <input type="radio" name="FirstClass" id="No" value="No">
+                </div>
+                
+                <div>
+                    <label for="">Luggage weight : </label>
+                    <input type="number" name="luggageWeight" id="luggageWeight" value="luggageWeight">
+                </div>
+
+
+                <div>
+                    <label for="">Student - </label>
+
+                    <label for="">Yes : </label>
+                    <input type="radio" name="Student" id="Yes" value="Yes">
+                    <label for="">No : </label>
+                    <input type="radio" name="Student" id="No" value="No">
+                </div>
+              
+                <div>
+                    <label for="">Senior Citizen - </label>
+                    
+                    <label for="">Yes : </label>
+                    <input type="radio" name="SeniorCitizen" id="Yes" value="Yes">
+
+                    <label for="">No : </label>
+                    <input type="radio" name="SeniorCitizen" id="No" value="No">
+
+                </div>
+
+                <button id="flbtn">Flight Fare</button>
+                <h3 id="flres"></h3>
+
+            </div>
+        </div>
+    </div>
+    <script src="atm.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:honeydew;
+
+}
+button{
+    margin:20px;
+}
+.AtmApplication, .onlineshop, .grading, .traffic, .movieticket, .job, .ecom, .Electricity, .fmem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+
+.ip {
+    display: block;
+}
+
+h3 {
+    color:crimson;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flightticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
